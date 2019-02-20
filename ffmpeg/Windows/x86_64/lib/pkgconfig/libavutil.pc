@@ -1,0 +1,14 @@
+prefix=/home/mao/ffmpeg-build
+exec_prefix=${prefix}
+libdir=/home/mao/ffmpeg-build/lib
+includedir=/home/mao/ffmpeg-build/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.22.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lm -LC:/mingw64/msys/1.0/local/lib -lmfx -lstdc++ -luser32 -lbcrypt
+Cflags: -I${includedir}

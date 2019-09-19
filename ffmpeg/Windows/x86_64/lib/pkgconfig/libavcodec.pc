@@ -10,5 +10,5 @@ Requires:
 Requires.private: libswresample >= 3.5.100, libavutil >= 56.31.100
 Conflicts:
 Libs: -L${libdir}  -lavcodec 
-Libs.private: -lm -lz -LC:/mingw64/msys/1.0/local/lib -lopenh264 -lole32 -luser32 -LC:/mingw64/msys/1.0/local/lib -lmfx -lstdc++
+Libs.private: -lm -lz -LC:/mingw64/msys/1.0/local/lib -lopenh264 -lole32 -luser32
 Cflags: -I${includedir}

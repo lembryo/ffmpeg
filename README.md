@@ -10,7 +10,7 @@
 
 - ビルドオプション
 
-> $ ./configure --prefix=/home/mao/ffmpeg-build --disable-logging --disable-gpl --enable-version3 --enable-static --enable-shared --disable-doc --disable-htmlpages --disable-manpages --disable-podpages --disable-txtpages --disable-avdevice --disable-postproc --disable-bzlib --disable-iconv --enable-libopenh264 --disable-debug --enable-cuda --enable-cuvid --enable-nvenc --enable-hwaccel=h264_dxva2 --enable-libmfx --enable-optimizations --extra-ldflags="-static-libgcc -static-libstdc++"
+> $ ./configure --prefix=/home/mao/ffmpeg-build --disable-logging --disable-gpl --enable-version3 --enable-static --enable-shared --disable-doc --disable-htmlpages --disable-manpages --disable-podpages --disable-txtpages --disable-avdevice --disable-postproc --disable-bzlib --disable-iconv --enable-libopenh264 --disable-debug --enable-cuda --enable-cuvid --enable-nvenc --enable-hwaccel=h264_dxva2 --enable-libmfx --enable-optimizations --extra-ldflags="-static"
 
 ## その他
 

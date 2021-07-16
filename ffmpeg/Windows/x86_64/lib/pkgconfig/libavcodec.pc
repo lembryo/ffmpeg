@@ -5,10 +5,10 @@ includedir=/home/mao/ffmpeg-build/include
 
 Name: libavcodec
 Description: FFmpeg codec library
-Version: 58.87.101
+Version: 58.134.100
 Requires: 
-Requires.private: libswresample >= 3.6.100, libavutil >= 56.49.100
+Requires.private: libswresample >= 3.9.100, libavutil >= 56.70.100
 Conflicts:
 Libs: -L${libdir}  -lavcodec 
-Libs.private: -lm -lz -LC:/mingw64/msys/1.0/local/lib -lopenh264 -lmfplat -lmfuuid -lole32 -lstrmiids -lole32 -luser32
+Libs.private: -lm -lz -LC:/mingw64/msys/1.0/local/lib -lopenh264 -lmfplat -lmfuuid -lole32 -lstrmiids -lole32 -luser32 -LC:/mingw64/msys/1.0/local/lib -lmfx -lstdc++ -lole32 -luuid
 Cflags: -I${includedir}

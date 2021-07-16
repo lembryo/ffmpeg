@@ -5,10 +5,10 @@ includedir=/home/mao/ffmpeg-build/include
 
 Name: libavfilter
 Description: FFmpeg audio/video filtering library
-Version: 7.83.100
+Version: 7.110.100
 Requires: 
-Requires.private: libswscale >= 5.6.101, libavformat >= 58.43.100, libavcodec >= 58.87.101, libswresample >= 3.6.100, libavutil >= 56.49.100
+Requires.private: libswscale >= 5.9.100, libavformat >= 58.76.100, libavcodec >= 58.134.100, libswresample >= 3.9.100, libavutil >= 56.70.100
 Conflicts:
 Libs: -L${libdir}  -lavfilter 
-Libs.private: -lm
+Libs.private: -lm -LC:/mingw64/msys/1.0/local/lib -lmfx -lstdc++ -lole32 -luuid
 Cflags: -I${includedir}

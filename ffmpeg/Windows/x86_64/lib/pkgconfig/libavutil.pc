@@ -5,10 +5,10 @@ includedir=/home/mao/ffmpeg-build/include
 
 Name: libavutil
 Description: FFmpeg utility library
-Version: 56.49.100
+Version: 56.70.100
 Requires: 
 Requires.private: 
 Conflicts:
 Libs: -L${libdir}  -lavutil 
-Libs.private: -lm -luser32 -lbcrypt
+Libs.private: -lm -LC:/mingw64/msys/1.0/local/lib -lmfx -lstdc++ -lole32 -luuid -luser32 -lbcrypt
 Cflags: -I${includedir}
